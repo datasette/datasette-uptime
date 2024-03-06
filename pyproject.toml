@@ -15,10 +15,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simonw/datasette-uptime"
-Changelog = "https://github.com/simonw/datasette-uptime/releases"
-Issues = "https://github.com/simonw/datasette-uptime/issues"
-CI = "https://github.com/simonw/datasette-uptime/actions"
+Homepage = "https://github.com/datasette/datasette-uptime"
+Changelog = "https://github.com/datasette/datasette-uptime/releases"
+Issues = "https://github.com/datasette/datasette-uptime/issues"
+CI = "https://github.com/datasette/datasette-uptime/actions"
 
 [project.entry-points.datasette]
 uptime = "datasette_uptime"

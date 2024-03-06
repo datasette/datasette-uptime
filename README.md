@@ -1,9 +1,9 @@
 # datasette-uptime
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-uptime.svg)](https://pypi.org/project/datasette-uptime/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-uptime?include_prereleases&label=changelog)](https://github.com/simonw/datasette-uptime/releases)
-[![Tests](https://github.com/simonw/datasette-uptime/actions/workflows/test.yml/badge.svg)](https://github.com/simonw/datasette-uptime/actions/workflows/test.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-uptime/blob/main/LICENSE)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-uptime?include_prereleases&label=changelog)](https://github.com/datasette/datasette-uptime/releases)
+[![Tests](https://github.com/datasette/datasette-uptime/actions/workflows/test.yml/badge.svg)](https://github.com/datasette/datasette-uptime/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-uptime/blob/main/LICENSE)
 
 Datasette plugin showing uptime at /-/uptime
 
