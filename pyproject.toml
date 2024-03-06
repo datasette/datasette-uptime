@@ -1,6 +1,6 @@
 [project]
 name = "datasette-uptime"
-version = "0.1"
+version = "0.1.1"
 description = "Datasette plugin showing uptime at /-/uptime"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
