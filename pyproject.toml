@@ -1,0 +1,30 @@
+[project]
+name = "datasette-uptime"
+version = "0.1"
+description = "Datasette plugin showing uptime at /-/uptime"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers=[
+    "Framework :: Datasette",
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "datasette"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/datasette-uptime"
+Changelog = "https://github.com/simonw/datasette-uptime/releases"
+Issues = "https://github.com/simonw/datasette-uptime/issues"
+CI = "https://github.com/simonw/datasette-uptime/actions"
+
+[project.entry-points.datasette]
+uptime = "datasette_uptime"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
